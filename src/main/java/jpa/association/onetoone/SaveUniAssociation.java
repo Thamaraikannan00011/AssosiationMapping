@@ -8,7 +8,7 @@ import jakarta.persistence.Persistence;
 public class SaveUniAssociation {
 	
 	public static void main(String[] args) {
-		EntityManagerFactory emf = Persistence.createEntityManagerFactory("OneToOne	");
+		EntityManagerFactory emf = Persistence.createEntityManagerFactory("OneToOne");
 		EntityManager em = emf.createEntityManager();
 		EntityTransaction tran = em.getTransaction();
 		tran.begin();
